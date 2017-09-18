@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WordCounterHomework</string>
+    <string name="count_input_button">Count the words!</string>
+    <string name="input_hint">Type a sentence for me to count</string>
 </resources>

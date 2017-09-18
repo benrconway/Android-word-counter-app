@@ -5,8 +5,8 @@ package com.example.user.wordcounterhomework;
  */
 
 public class WordCounter {
-    public static int countWords(String stringToCount){
+    public static String countWords(String stringToCount){
         String[] wordsSeperated = stringToCount.split("\\s");
-        return wordsSeperated.length;
+        return "The number of words you have entered is: " + wordsSeperated.length + ".";
     }
 }
